@@ -138,13 +138,13 @@ contact-form-main/
 
 ## 🌐 Demo en vivo
 
-[Ver proyecto en vivo](tu-url-de-deployment)
+[Ver proyecto en vivo](https://contact-form-main-lilac.vercel.app/)
 
 ## 👤 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Frontend Mentor: [@tu-usuario](https://www.frontendmentor.io/profile/tu-usuario)
+- GitHub: [@cristianbarreiro](https://github.com/cristianbarreiro)
+- Frontend Mentor: [@cristianbarreiro](https://www.frontendmentor.io/profile/cristianbarreiro)
 
 ## 🙏 Agradecimientos
 
