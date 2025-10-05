@@ -140,33 +140,7 @@ contact-form-main/
 
 [Ver proyecto en vivo](https://contact-form-main-lilac.vercel.app/)
 
-## � Project Reflection
-
-### What I'm most proud of:
-
-I'm particularly proud of implementing **comprehensive form validation from scratch** using vanilla JavaScript without relying on external libraries. The real-time validation system provides immediate visual feedback with dynamic border colors (red for errors, green for valid inputs) that significantly enhances user experience.
-
-The **seamless integration between HTML, CSS, and JavaScript** stands out as a key achievement. I successfully disabled native browser validation using `novalidate` and built a custom validation system that handles all edge cases, including email regex validation and proper error state management.
-
-Another highlight is the **responsive design implementation** that adapts beautifully across devices, and the elegant success message animation that appears and fades automatically after form submission.
-
-### What I would do differently next time:
-
-1. **Implement a more modular JavaScript architecture** - I would refactor the validation logic into separate modules or classes for better code organization and reusability.
-
-2. **Add advanced accessibility features** - While the current implementation is accessible, I would enhance it with ARIA attributes, better screen reader support, and comprehensive keyboard navigation.
-
-3. **Create reusable validation functions** - Instead of repeating similar validation logic for each field, I would build a validation engine that could handle different field types more efficiently.
-
-4. **Implement progressive enhancement** - Start with a working form without JavaScript and enhance it progressively, ensuring functionality even if JavaScript fails to load.
-
-5. **Add unit testing** - Implement Jest or similar testing framework to ensure validation logic works correctly across different scenarios.
-
-6. **Consider using CSS Grid more extensively** - While the current layout works well, CSS Grid could provide more flexible and maintainable responsive layouts.
-
-This project significantly improved my understanding of form validation patterns, DOM manipulation, and the importance of user feedback in web applications.
-
-## �👤 Autor
+## 👤 Autor
 
 **Tu Nombre**
 - GitHub: [@cristianbarreiro](https://github.com/cristianbarreiro)
