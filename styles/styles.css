@@ -43,8 +43,15 @@ textarea:focus {
 }
 
 input[type='text'].form-error,
-input[type='email'].form-error {
+input[type='email'].form-error,
+textarea.form-error {
   border: 1px solid var(--red);
+}
+
+input[type='text'].form-success,
+input[type='email'].form-success,
+textarea.form-success {
+  border: 1px solid var(--green);
 }
 
 .required-input {
@@ -161,7 +168,7 @@ input[type='email'].form-error {
   width: max-content;
   padding: 1rem;
   pointer-events: none;
-  /* opacity:0; */
+  opacity: 0;
   position: fixed;
   top: 10%;
   left: 50%;
@@ -170,7 +177,7 @@ input[type='email'].form-error {
 }
 
 .success-message.active {
-  display: block;
+  opacity: 1;
   pointer-events: all;
   animation-name: fadeOut;
   animation-duration: 5s;
