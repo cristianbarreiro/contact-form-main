@@ -2,9 +2,13 @@ const form = document.getElementById('contact-form');
 const successMessage = document.getElementById('success-message');
 
 if (successMessage) {
-    successMessage.setAttribute('role', 'alert');
-    successMessage.setAttribute('aria-live', 'assertive');
-    successMessage.setAttribute('aria-hidden', 'true');
+    if (!successMessage.hasAttribute('role')) {
+        successMessage.setAttribute('role', 'status');
+    }
+    if (!successMessage.hasAttribute('aria-live')) {
+        successMessage.setAttribute('aria-live', 'assertive');
+    }
+    successMessage.setAttribute('aria-hidden', successMessage.getAttribute('aria-hidden') ?? 'true');
 }
 
 const fieldValidators = {
