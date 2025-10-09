@@ -18,7 +18,7 @@
   <div class="contact-form">
     <h1>Contact Us</h1>
 
-    <form id="contact-form" action="">
+    <form id="contact-form" action="" novalidate>
       <div class="form-item">
         <div class="first-name">
           <label for="first-name">First Name <span class="required-input">*</span></label>
@@ -37,17 +37,19 @@
         <p class="form-alert">Please enter a valid email address</p>
       </div>
       <div class="form-item">
-        <label for="query-type">Query Type <span class="required-input">*</span></label>
-        <div class="radio-inputs">
-          <div class="radio-option">
-            <input type="radio" id="general-enquiry" name="query-type" value="General Enquiry">
-            <label for="general-enquiry">General Enquiry</label>
+        <fieldset class="query-fieldset">
+          <legend>Query Type <span class="required-input">*</span></legend>
+          <div class="radio-inputs" role="radiogroup" aria-required="true">
+            <div class="radio-option">
+              <input type="radio" id="general-enquiry" name="query-type" value="General Enquiry">
+              <label for="general-enquiry">General Enquiry</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="support-request" name="query-type" value="Support Request">
+              <label for="support-request">Support Request</label>
+            </div>
           </div>
-          <div class="radio-option">
-            <input type="radio" id="support-request" name="query-type" value="Support Request">
-            <label for="support-request">Support Request</label>
-          </div>
-        </div>
+        </fieldset>
         <p class="form-alert">Please select a query type</p>
       </div>
       <div class="form-item">
@@ -58,7 +60,7 @@
       <div class="form-item">
         <div>
           <input type="checkbox" name="consent" id="consent" >
-          <label for="consent">I consent to being contacted by the team <span class="required-input">*</span>/label>
+          <label for="consent">I consent to being contacted by the team <span class="required-input">*</span></label>
         </div>
         <p class="form-alert">To submit this form, please consent to being contacted</p>
       </div>
